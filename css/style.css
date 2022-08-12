@@ -8,6 +8,7 @@
   margin: 0px;
   padding: 0px;
   font-family: "Montserrat", "sans-serif";
+  font-size: 16px;
 }
 
 html {
@@ -15,11 +16,11 @@ html {
 }
 
 .download-btn-first {
-  background: #f7f7f7;
+  background: #234197;
 }
 
 .download-btn-first:hover {
-  background: #234197;
+  background: #5A5A5A;
   color: #fff !important;
 }
 
@@ -28,14 +29,14 @@ html {
 }
 
 .features-btn-first:hover {
-  background: #f7f7f7 !important;
-  color: #234197 !important;
+  background: #5A5A5A;
+  color: #fff !important;
 }
 
 #fh5co-hero-wrapper {
   height: 800px;
   width: 100%;
-  background: url("../img/banner-bg.jpg") no-repeat center;
+  background: url("../img/hero-bg.svg") no-repeat center;
   border-radius: 0 0 50% 50% / 4%;
 }
 
@@ -48,14 +49,14 @@ html {
 }
 
 .main-navbar-nav {
-  color: #fff !important;
+  color: #203881 !important;
 }
 .main-navbar-nav li {
-  color: #fff;
-  opacity: .7;
+  color: #234197;
+  opacity: 1;
 }
 .main-navbar-nav .navbar-nav .nav-item a:hover {
-  color: #234197 !important;
+  color: #5A5A5A !important;
   -webkit-transition: all .33s ease;
   -moz-transition: all .33s ease;
   -o-transition: all .33s ease;
@@ -63,11 +64,11 @@ html {
   transition: all .33s ease;
 }
 .main-navbar-nav .active {
-  color: #fff !important;
+  color: #234197 !important;
   opacity: 1 !important;
 }
 .main-navbar-nav a {
-  color: #fff !important;
+  color: #234197 !important;
 }
 .main-navbar-nav .nav-link {
   opacity: 1 !important;
@@ -95,7 +96,7 @@ html {
   position: relative;
 }
 .fh5co-hero-inner > h1 {
-  color: #fff;
+  color: #5A5A5A;
   font-weight: 300;
   font-size: 55px;
   letter-spacing: 2px;
@@ -103,7 +104,7 @@ html {
 .fh5co-hero-inner > p {
   width: 400px;
   font-size: 14px;
-  color: #fff;
+  color: #5A5A5A;
   margin-top: 30px;
   margin-bottom: 30px;
   line-height: 2em;
@@ -112,34 +113,35 @@ html {
   font-size: 15px;
   padding: 10px 15px;
   font-weight: 700;
-  color: #234197;
+  color: #fff;
 }
 .fh5co-hero-inner .features-btn-first {
   font-size: 15px;
   padding: 8px 13px;
-  font-weight: 400;
-  background: #234197;
-  color: #fff;
+  font-weight:normal;
+  /* background: #234197; */
+  color: #234197;
   margin-left: 10px;
 }
 .fh5co-hero-inner .fh5co-hero-smartphone {
   position: absolute;
-  right: 0px;
-  top: 120px;
-  height: 650px;
+  right: -45vh;
+  top: 75px;
+  height: 584px;
 }
 
 /* ==========================================================================================================
 										ADVANTAGES
    ========================================================================================================== */
 .fh5co-advantages-outer {
-  padding: 70px;
-  height: auto;
+  padding-top: 35vh;
   width: 100%;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 .fh5co-advantages-outer .span-perfect {
-  color: #648cff;
+  color: #203881;
   text-transform: uppercase;
   font-size: 27px;
   letter-spacing: 1px;
@@ -165,7 +167,7 @@ html {
   padding-right: 30px;
   position: relative;
   top: 1px;
-  color: #648cff;
+  color: #234197;
 }
 .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-title {
   float: left;
@@ -174,12 +176,10 @@ html {
 }
 .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-desc {
   float: right;
-  font-size: 13px;
   padding-right: 7%;
   width: 70%;
-  color: #c7c7c7;
   margin-top: 10px;
-  line-height: 1.87em;
+  /* line-height: 1.87em; */
 }
 
 .fh5co-slider-inner {
@@ -193,20 +193,24 @@ html {
 .fh5co-slider-outer {
   width: 100%;
   height: auto;
-  padding: 70px;
+  padding-top: 0px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 70px;
 }
 .fh5co-slider-outer h1 {
-  color: #648cff;
+  color: #203881;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 10px;
-  text-align: center;
+  /* text-align: center; */
 }
-.fh5co-slider-outer > h1, .fh5co-slider-outer small {
+/* .fh5co-slider-outer > h1, .fh5co-slider-outer small {
   text-align: center;
   display: block;
-}
+  font-size: 14px;
+} */
 .fh5co-slider-outer .fh5co-slider-outer {
   margin-top: 50px;
 }
@@ -234,7 +238,7 @@ html {
 										FEATURES
    ========================================================================================================== */
 .curved-bg-div {
-  background: url("../img/curved-bgg.jpg") no-repeat;
+  /* background: url("../img/curved-bgg.png") no-repeat; */
   background-position: 0px -140px;
   background-size: cover;
   width: 100%;
@@ -588,9 +592,9 @@ html {
 
   .fh5co-hero-inner .fh5co-hero-smartphone {
     position: absolute;
-    right: 50px;
-    top: 200px;
-    height: 550px;
+right: -91px;
+top: 90px;
+height: 470px;
   }
 
   .curved-bg-div {
@@ -993,12 +997,7 @@ html {
   }
 }
 
-.text-style-p{
-  color: #111;
-font-weight: 500;
-font-size: 14.5px;
-line-height: 1.8em;
-}
+
 
 .color-primary{
   color: #648CFE;
@@ -1008,4 +1007,35 @@ line-height: 1.8em;
   height: 100vh;
   display: flex;
   align-items: center;
+}
+
+.text-style-primary{
+  color: #203881;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-style-secondary{
+  color: #2b2b2b;
+  /* text-transform: uppercase; */
+  font-size: 16.5px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  line-height: 2.1;
+}
+
+#screenshots{
+height: 100vh;
+display: flex;
+align-items: center;
+background: url("../img/bg-ss.svg") no-repeat;
+  padding-top: 100px;
+padding-bottom: 90px;
+/* background: #203881; */
+position: relative;
+z-index: 1;
+background-size: auto, auto;
+background-size: cover;
 }
