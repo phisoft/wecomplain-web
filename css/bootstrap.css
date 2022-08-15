@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  --blue: #203881;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -161,15 +161,15 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #203881;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  color: #b2b2b2;
+  /* text-decoration: underline; */
 }
 
 a:not([href]):not([tabindex]) {

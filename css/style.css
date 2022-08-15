@@ -3,7 +3,7 @@
 	Twitter: http://twitter.com/fh5co
 	URL: http://freehtml5.co
 */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900");
 * {
   margin: 0px;
   padding: 0px;
@@ -479,9 +479,9 @@ html {
 
 .footer-outer {
   width: 100%;
-  padding: 50px;
-  height: 250px;
-  background: #2e3149;
+  padding-top: 90px;
+  height: auto;
+  background: #F7FAFD;
   overflow: hidden;
 }
 .footer-outer .footer-inner {
@@ -530,7 +530,8 @@ html {
   height: 50px;
 }
 .footer-outer .column-3-3 a {
-  color: #b5b5c8;
+  color: #203881;
+  font-weight: bold;
 }
 .footer-outer .column-3-3 .social-icons-header a:hover {
   color: #fff;
@@ -546,12 +547,13 @@ html {
 .footer-outer .footer-nav ul li {
   display: inline-block;
   line-height: 50px;
-  color: #b5b5c8;
+  color: #203881;
   margin: 0 30px;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 500;
 }
 .footer-outer .footer-nav ul li:hover {
-  color: #fff;
+  color: #2b2b2b;
   -webkit-transition: color .2s ease-in-out;
   -o-transition: color .2s ease-in-out;
   transition: color .2s ease-in-out;
@@ -565,17 +567,19 @@ html {
 }
 .footer-outer .border-bottom-footer {
   height: 1px;
-  width: 60%;
+  /* width: 60%; */
   margin: 0 auto;
-  border: 1px solid #434769;
+  /* border: 1px solid #d0e5ff; */
   display: block;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .footer-outer .copyright {
   color: #565b87;
   text-align: center;
   font-size: 13px;
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin: 0;
 }
 
 .google-play-btn {
@@ -928,7 +932,7 @@ height: 470px;
     margin: 0 auto;
     border: 1px solid #434769;
     display: block;
-    margin-top: 100px;
+    margin-top: 0px;
   }
 }
 @media screen and (max-width: 520px) {
@@ -1000,7 +1004,7 @@ height: 470px;
 
 
 .color-primary{
-  color: #648CFE;
+  color: #203881;
 }
 
 #about{
@@ -1038,4 +1042,32 @@ position: relative;
 z-index: 1;
 background-size: auto, auto;
 background-size: cover;
+}
+
+.fs-14{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.fs-15{
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.rel-top-3px{
+  position: relative;
+  top: 3px;
+}
+
+.rel-top-10px{
+  position: relative;
+  top: 10px;
+}
+
+.text-bold{
+  font-weight: 600;
+}
+
+.lh-2rem{
+  line-height: 1.95rem;
 }
