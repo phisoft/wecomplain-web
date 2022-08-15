@@ -64,7 +64,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #3e3e3e
+  ;
   text-align: left;
   background-color: #fff;
 }
@@ -2926,7 +2927,7 @@ fieldset:disabled a.btn {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
@@ -6066,7 +6067,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #F7FAFD !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,

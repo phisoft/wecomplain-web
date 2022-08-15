@@ -34,10 +34,14 @@ html {
 }
 
 #fh5co-hero-wrapper {
-  height: 800px;
+  display: flex;
+  align-items: center;
+  height: 94vh;
   width: 100%;
-  background: url("../img/hero-bg.svg") no-repeat center;
-  border-radius: 0 0 50% 50% / 4%;
+  background: url("../img/hero-bg.png") no-repeat center;
+  background-size: cover;
+  /* border-radius: 0 0 50% 50% / 4%; */
+
 }
 
 .main-navbar-nav .navbar-brand {
@@ -1071,3 +1075,22 @@ background-size: cover;
 .lh-2rem{
   line-height: 1.95rem;
 }
+
+.fs-40{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.fs-18{
+  font-size: 18.5px;
+  font-weight: 400;
+}
+
+.bg-color-primary{
+  background-color: #203881;
+}
+
+.bg-color-secondary{
+  background-color: #F1F1F1;
+}
+
