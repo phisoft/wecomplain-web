@@ -264,6 +264,12 @@ html {
 /* ==========================================================================================================
 										FEATURES
    ========================================================================================================== */
+   #service{
+    display: flex;
+padding-top: 15vh;
+padding-bottom: 15vh;
+align-items: center;
+   }
 .curved-bg-div {
   /* background: url("../img/curved-bgg.png") no-repeat; */
   background-position: 0px -140px;
@@ -275,7 +281,6 @@ html {
 .fh5co-features-outer {
   width: 100%;
   height: auto;
-  margin-top: -180px;
 }
 .fh5co-features-outer .col-sm-6 {
   margin-top: 80px;
@@ -1070,10 +1075,10 @@ height: 470px;
 }
 
 #screenshots{
-height: 100vh;
+height: 85vh;
 display: flex;
 align-items: center;
-background: url("../img/bg-ss.svg") no-repeat;
+background: url("../img/2cta.png") no-repeat;
   padding-top: 100px;
 padding-bottom: 90px;
 /* background: #203881; */
@@ -1081,6 +1086,22 @@ position: relative;
 z-index: 1;
 background-size: auto, auto;
 background-size: cover;
+}
+
+@media (max-width: 430px) {
+  #screenshots{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    background: url("../img/cta-mobile.png") no-repeat;
+      padding-top: 100px;
+    padding-bottom: 90px;
+    /* background: #203881; */
+    position: relative;
+    z-index: 1;
+    background-size: auto, auto;
+    background-size: cover;
+    }
 }
 
 .fs-14{
