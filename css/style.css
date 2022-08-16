@@ -3,11 +3,11 @@
 	Twitter: http://twitter.com/fh5co
 	URL: http://freehtml5.co
 */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Montserrat", "sans-serif";
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
 }
 
@@ -138,11 +138,34 @@ html {
 										ADVANTAGES
    ========================================================================================================== */
 .fh5co-advantages-outer {
-  padding-top: 35vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   width: 100%;
   overflow: hidden;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 420px) {
+  .fh5co-advantages-outer {
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 991px) {
+  .fh5co-advantages-outer {
+    padding-top: 17vh;
+    padding-bottom: 17vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
 }
 .fh5co-advantages-outer .span-perfect {
   color: #203881;
@@ -150,10 +173,10 @@ html {
   font-size: 27px;
   letter-spacing: 1px;
 }
-.fh5co-advantages-outer .span-features {
+/* .fh5co-advantages-outer .span-features {
   text-transform: uppercase;
   font-size: 42px;
-}
+} */
 .fh5co-advantages-outer .second-title {
   text-align: center;
   display: block;
@@ -1012,9 +1035,21 @@ height: 470px;
 }
 
 #about{
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
   align-items: center;
+}
+
+@media (max-width: 420px) {
+  #about{
+    /* height: 100vh; */
+    display: flex;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    align-items: center;
+  }
 }
 
 .text-style-primary{
@@ -1058,6 +1093,11 @@ background-size: cover;
   font-weight: 400;
 }
 
+.fs-16{
+  font-size: 16.5px;
+  font-weight: 400;
+}
+
 .rel-top-3px{
   position: relative;
   top: 3px;
@@ -1076,9 +1116,20 @@ background-size: cover;
   line-height: 1.95rem;
 }
 
-.fs-40{
-  font-size: 40px;
-  font-weight: bolder;
+
+
+@media (max-width: 420px) {
+  .fs-40{
+    font-size: auto;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 768px) {
+  .fs-40{
+    font-size: 40px;
+    font-weight: bolder;
+  }
 }
 
 .fs-18{
@@ -1092,5 +1143,18 @@ background-size: cover;
 
 .bg-color-secondary{
   background-color: #F1F1F1;
+}
+
+.bg-color-tertiary{
+  background-color: #EFF6FF;
+}
+
+.bg-logo{
+  background-color: #9fadbd;
+}
+
+.fs-19-bold{
+  font-size: 19px;
+  font-weight: bold;
 }
 
