@@ -38,10 +38,34 @@ html {
   align-items: center;
   height: 94vh;
   width: 100%;
-  background: url("../img/hero-bg.png") no-repeat center;
-  background-size: cover;
-  /* border-radius: 0 0 50% 50% / 4%; */
+  background-color: #F7FAFD;
 
+}
+
+@media (max-width:420px) {
+  #fh5co-hero-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #F7FAFD;
+    background-size: cover;
+    /* border-radius: 0 0 50% 50% / 4%; */
+  }
+}
+
+@media (min-width: 992px) {
+  #fh5co-hero-wrapper {
+    display: flex;
+    align-items: center;
+    height: 94vh;
+    width: 100%;
+    background-color: #F7FAFD;
+    background: url("../img/hero-bg.png") no-repeat center;
+    background-size: cover;
+    /* border-radius: 0 0 50% 50% / 4%; */
+  }
 }
 
 .main-navbar-nav .navbar-brand {
@@ -265,6 +289,7 @@ html {
 										FEATURES
    ========================================================================================================== */
    #service{
+    background-color: #fff;
     display: flex;
 padding-top: 15vh;
 padding-bottom: 15vh;
@@ -1139,9 +1164,9 @@ background-size: cover;
 
 
 
-@media (max-width: 420px) {
+@media (max-width: 428px) {
   .fs-40{
-    font-size: auto;
+    font-size: 36px;
     font-weight: bolder;
   }
 }
