@@ -1091,7 +1091,7 @@ height: 470px;
 }
 
 .text-style-secondary{
-  color: #2b2b2b;
+  color: #7a7a7a;
   /* text-transform: uppercase; */
   font-size: 16.5px;
   font-weight: normal;
@@ -1103,7 +1103,7 @@ height: 470px;
 height: 85vh;
 display: flex;
 align-items: center;
-background: url("../img/2cta.png") no-repeat;
+background: url("../img/cta.svg") no-repeat;
   padding-top: 100px;
 padding-bottom: 90px;
 /* background: #203881; */
