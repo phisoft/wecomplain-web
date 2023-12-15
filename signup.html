@@ -98,28 +98,40 @@
    <br></br>
    
     <form id="signupForm">
-      <div class="center">
-        <div class="a">
-			<br></br>
-          <img class="grid-image mb-5"
-          data-wow-delay="1.2s" width="60%"src="img/logo.png" alt="logo-img">
-        
-        <label for="email"></label>
-        <input type="text" placeholder="Email" name="email" required>
+      	<div class="form-block sign-up">
+			<img class="grid-image mb-5" data-wow-delay="1.2s" width="100%" src="img/logo.png" alt="logo-img">
+			<div class=" ">
+				<input type="text" placeholder="Username" name="username" required>
+				<input type="text" placeholder="Password" name="password" required>
+				<div class="containerBtn">
+					<button type="submit" class="button" onclick="openPopup()">Sign Up</button>
+				</div>
+			</div>
 
-        <label for="username"></label>
-        <input type="text" placeholder="Business Name" name="username" required>
-    
-        <label for="psw"></label>
-        <input type="password" placeholder="Password" name="psw" required>
-    
-        <br></br>
-		<div class="containerBtn">
-        <button type="submit" class="button" onclick="openPopup()">Sign Up</button>
-		</div>
-        </div>
-      </div>	  
-    </div>
+			<div class="text-center">
+				<div class="">
+					<a>Connect with :</a>
+				</div>
+				<div class="row align-center">
+					<div class="col-4 col-lg-4 col-sm-12 social">
+						<button  type="submit" class="button fb-btn" onclick="openPopup()">
+							<img class="social-btn" src="img/button/facebook-btn.png" alt="buttonpng" />
+						</button>
+					</div>
+					<div class="col-4 col-lg-4 col-sm-12 social ">
+						<button width="100%" type="submit" class="button x-btn" onclick="openPopup()">
+							<img class="social-btn" src="img/button/x-btn.png" alt="buttonpng" />
+						</button>
+					</div>
+					<div class="col-4 col-lg-4 col-sm-12 social">
+						<button width="100%" type="submit" class="button google-btn" onclick="openPopup()">
+							<img class="social-btn" src="img/button/google-btn.png" alt="buttonpng" />
+						</button>
+					</div>
+				</div>
+			</div>
+        
+      	</div>	  
     </form> 
 	<br></br>
 	<br></br>
