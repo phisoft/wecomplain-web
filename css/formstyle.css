@@ -81,9 +81,19 @@
 
    .form-block{
     background: #fff;
-    padding: 50px;
+    padding: 80px 70px;
     -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+   }
+
+   .holder ::placeholder  {
+    color :#000000;
+    opacity: 0.2;
+   }
+
+   .holder ::-ms-input-placeholder  {
+    color :#000000;
+    opacity: 0.2;
    }
 
    .social{
