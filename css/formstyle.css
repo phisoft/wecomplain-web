@@ -13,6 +13,10 @@
      border-radius: 5px;
      padding: 10px;
    }
+
+   #signupForm{
+    margin: 100px 0px;
+   }
    
    input[type=text]:focus, input[type=password]:focus {
      outline: none;
@@ -36,8 +40,9 @@
     padding: 10px 10px;
   }
 
-  .social-icons-header .col-6{
+  .social-icons-header{
     height: fit-content;
+    gap: 10px;
   }
 
   .signin-button {
@@ -123,6 +128,23 @@
     padding: 80px 70px;
     -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+    margin: auto;
+   }
+
+   @media (max-width:900px) {
+    .sign-up {
+      width: 80%;
+      padding: 15px;
+      box-shadow: none;
+    }
+   }
+
+   @media (max-width:420px) {
+    .sign-up {
+      width: 80%;
+      padding: 15px;
+      box-shadow: none;
+    }
    }
 
    .holder ::placeholder  {
