@@ -6,12 +6,16 @@
 
    /* Full-width input fields */
      input[type=text], input[type=password] {
-     width: 80%;
+     width: 100%;
      margin: 5px 0 22px 0;
      display: inline-block;
      border: 2px solid rgb(249, 244, 244);
      border-radius: 5px;
      padding: 10px;
+   }
+
+   #signupForm{
+    margin: 100px 0px;
    }
    
    input[type=text]:focus, input[type=password]:focus {
@@ -22,23 +26,63 @@
      border: 1px solid #f1f1f1;
      margin-bottom: 25px;
    }
+
+   .header-button {
+    background-color: #234197;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+  }
+
+  .social-icons-header{
+    height: fit-content;
+    gap: 10px;
+  }
+
+  .signin-button {
+    background-color: #F7FAFD ;
+    color: #234197;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    margin: 5px 0 5px 0;
+    border-color: #234197 ;
+    border-radius: 5px;
+    padding: 10px 10px;
+    overflow: auto;
+  }
+  
    
    /* Set a style for all buttons */
    .button {
      background-color: #234197;
      color: white;
      cursor: pointer;
-     width: 80%;
+     width: 100%;
      opacity: 0.9;
      margin: 5px 0 22px 0;
-     display: inline-block;
      border: none;
      border-radius: 5px;
-     padding: 10px;
+     padding: 15px;
    }
    
+
+   .signin-button:hover {
+    opacity:1;
+    color: white;
+    background-color:#234197;
+  }
+
+
    button:hover {
      opacity:1;
+     background-color:#686A6C;
    }
  
    /* Add padding to container elements */
@@ -66,9 +110,9 @@
      }
    }
 
-   .center {
+   .sign-up {
      margin: auto;
-     width: 25%;
+     width: 30%;
      box-sizing: content-box;  
      border: 1px solid #ffffff;
      padding: 10px;
@@ -78,4 +122,60 @@
    div.a {
      text-align: center;
    }
+
+   .form-block{
+    background: #fff;
+    padding: 80px 70px;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+    margin: auto;
+   }
+
+   @media (max-width:900px) {
+    .sign-up {
+      width: 80%;
+      padding: 15px;
+      box-shadow: none;
+    }
+   }
+
+   @media (max-width:420px) {
+    .sign-up {
+      width: 80%;
+      padding: 15px;
+      box-shadow: none;
+    }
+   }
+
+   .holder ::placeholder  {
+    color :#000000;
+    opacity: 0.2;
+   }
+
+   .holder ::-ms-input-placeholder  {
+    color :#000000;
+    opacity: 0.2;
+   }
+
+   .social{
+    max-height: fit-content;
+    width: 100%;
+    height: 100%;
+   }
+
+   .social-btn{
+    max-height: 20px;
+    vertical-align: text-bottom;
+   }
    
+   .fb-btn{
+    background-color: #507ABA;
+   }
+
+   .x-btn{
+    background-color: #000000;
+   }
+
+   .google-btn{
+    background-color: #E06046;
+   }
