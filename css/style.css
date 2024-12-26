@@ -1204,3 +1204,22 @@ background-size: cover;
   font-weight: bold;
 }
 
+button {
+  background-color: #1A3F94; 
+  color: white; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #cccccc; 
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #163679; 
+}
+
